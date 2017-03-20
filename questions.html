@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Screen</title>
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body id="questions-page">
+    <div id="listScreen-view" style="display: none">
+        <header class="header">
+            <a class="link-title" href="/">Bliss Recruitment App</a>
+        </header>
+        <nav class="menu">
+             <a href="/">Home</a> &nbsp; &nbsp; &nbsp;
+        </nav>
+        
+        <h2>List Screen</h2>
+        
+        <div class="searchBox">
+            <input type="text" id="textSearchBox" placeholder="Search here...">
+            <input type="button" id="buttonSearch" value="Search">
+            <input type="button" id="buttonClear" value="Dismiss">
+        </div>
+        
+        <article id="questionsArea">
+       		            
+        </article>
+        
+        <input id="loadMoreRecords" type="button" value="Browse additional records">
+        
+        <footer>
+            &copy; 2017 Bliss Recruitment App &nbsp; Design by <span class="separator">|</span> <a href="http://www.nunoalvarez.weebly.com">Nuno Fernandes</a>
+        </footer>
+    </div>
+    
+    <div id="detailScreen-view" style="display: none">
+        <header class="header">
+            <a class="link-title" href="/">Bliss Recruitment App</a>
+        </header>
+        <nav class="menu">
+            <a href="/">Home</a> &nbsp; &nbsp; &nbsp;
+        </nav>
+        
+        <h2>Detail Screen</h2>
+        
+        <article id="questionArea">
+
+        </article>
+               
+        <button id="backButton" >Back to the listing</button>       
+        <button id="shareButton" >Share</button>       
+                
+        <footer>
+            &copy; 2017 Bliss Recruitment App &nbsp; Design by <span class="separator">|</span> <a href="http://www.nunoalvarez.weebly.com">Nuno Fernandes</a>
+        </footer>
+    </div>
+    
+    <script src="/js/getQueryParameter.js" type="text/javascript"></script>
+    <script src="/js/questionsScript.js" type="text/javascript"></script>
+    <script src="/js/listQuestionsScript.js" type="text/javascript"></script>
+    <script src="/js/detailQuestionsScreen.js" type="text/javascript"></script>
+</body>
+</html>
